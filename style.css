@@ -1,0 +1,147 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; /* transisi */
+}
+
+body {
+  background-color: #f4f4f4;
+  min-height: 3000px; /* memanjangkan halaman web  */
+}
+
+nav {
+  background-color: #87ceeb; /* warna background navigation */
+  display: flex; /* agar teks dan logo berdampingan */
+  justify-content: space-around; /* logo di kiri, link di kanan */
+  align-items: center; /* logo dan teks sejajar secara vertikal */
+  padding: 1rem 2rem; /* 1rem untuk atas bawah, 2rem untuk kiri kanan */
+  position: sticky; /* agar posisi tetep nempel diatas */
+  top: 0;
+}
+
+nav ul {
+  display: flex; /* agar teks dan logo berdampingan */
+  align-items: center; /* agar teks sejajar tengah dengan logo */
+  gap: 1rem; /* ngasih jarak antar Hyperlink */
+  list-style: none; /* agar titik-titik hilang */
+}
+
+nav div img {
+  width: 50px; /* mengatur ukuran gambar logo */
+}
+
+/* ngatur h3 */
+nav div h3 {
+  display: flex;
+  font-family: "Segoe UI", sans-serif;
+  color: #191919;
+}
+
+/* mengatur hyperlink agar sesuai */
+nav ul li a {
+  text-decoration: none; /* agar garis bawah hilang */
+  font-family: "segoe UI", sans-serif;
+  color: #191919;
+  font-weight: 600; /* nebelin teks */
+  padding: 8px 0;
+}
+
+/* membuat animasi ketika link nya di tekan */
+nav ul li a:hover {
+  color: orangered;
+}
+
+/* mengatur jarak paragraf */
+p {
+  margin-bottom: -180px;
+}
+
+/* mengatur video agar ke tengah */
+.video {
+  display: flex; /* agar bisa di atur/fleksibel */
+  justify-content: center; /* agar video ke tengah */
+  margin: 195px 0; /* jarak vid dgn p */
+}
+
+.video iframe {
+  width: 1200px; /* lebar video */
+  height: 550px; /* tinggi video */
+}
+
+/* Tumbal anchor list */
+.icikiwir h3 {
+  color: #f4f4f4;
+}
+
+/* List */
+.list {
+  padding-top: 100px;
+}
+
+.list h3 {
+  text-align: center;
+  margin-bottom: 40px; /* jarak antara h3 dgn list */
+}
+
+.list .list-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  text-align: left; /* Isi list tetap rata kiri */
+}
+
+.list .list-colom {
+  padding-left: 50px; /* jarak anatar pingir layar dengan list */
+  color: #333;
+  font-size: 16px;
+}
+
+.gambar-wrapper {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.image-wrapper img {
+  max-width: 100%; /* biar gambar otomatis mengikuti lebar */
+  height: auto;
+}
+
+/* jarak antar list */
+.list ol li {
+  margin-bottom: 5px;
+}
+
+/* table */
+.tabel {
+  margin-top: 160px;
+  margin-bottom: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+.tabel thead tr {
+  background-color: #00ff00;
+  padding: 10px;
+}
+
+.tabel tbody td {
+  text-align: center;
+}
+
+.tabel tfoot td {
+  text-align: center;
+  background-color: #d3d3d3;
+}
+
+/* Footer  */
+
+footer {
+  background-color: #87ceeb;
+  text-align: center;
+  padding: 1rem 0 3rem;
+  margin-top: 3rem;
+}
